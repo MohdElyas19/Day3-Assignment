@@ -1,0 +1,18 @@
+Q. What is the difference between the static and the non-static variables of a class explain it 
+	with an example?
+
+Answer:- A static variable is the variable that acts as a global variable and is shared among all 
+the objects of the class. A non-static variables are specific to instance object in which they 
+are created.
+
+	Difference between static and non static variable are as follow ---
+
+1. Static members belong to the class, whereas non-static members belong to
+	the object.
+2. All objects of a class share a single copy of static variables whereas Each object has one 
+	local copy of the non-static variables.
+
+   We can access static members of a class by using the following 3 ways:
+	1. Directly by their name (only inside the same class)
+	2. By using the object
+	3. By using the class name (even inside another class also).
